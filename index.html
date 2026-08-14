@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Html,Css,Bootstrap 5 And Javascript Project By Riju">
+  <title>Teamo Online Plants Store</title>
+
+  <!-- favicon link here -->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- bootstrap icon link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Header Section -->
+  <header class="header_section fixed-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/logo.png" alt="Main Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active fs-5 fw-bold" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fs-5" href="#"><i class="bi bi-cart4 me-1"></i>Cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Or Banner Section  -->
+    <secton class="banner_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner_text">
+              <h1>Welcome to Teamo Online Plants Store</h1>
+              <p>Discover the best plants for your home, garden, or outdoor living space.</p>
+              <a href="#" class="btn btn-outline-warning rounded-pill">Find Your Plant</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </secton>
+
+    <!-- Find Your Plant Section  -->
+    <section class="find_plant_section pt-5 pb-5">
+      <div class="container">
+        <div class="col-12 text-center">
+          <div class="heading">
+            <h2 class="fw-bold">Find Your Perfect Plant</h2>
+            <img class="" src="assets/img/sub.webp" alt="">
+          </div>
+        </div>
+        <div class="quiz-container">
+          <form action="" method="POST">
+            <!-- Question 1: Sunlight -->
+            <div class="mb-4">
+              <label class="form-label" for="sunlightSelect">1. How much sunlight does your space get?</label>
+              <select class="form-select" id="sunlightSelect" name="sunlight" required>
+                <option value="" disabled selected>Select sunlight level</option>
+                <option value="Low">Low light</option>
+                <option value="Medium">Medium light</option>
+                <option value="High">Direct sunlight</option>
+              </select>
+            </div>
+
+            <!-- Question 2: Care Level -->
+            <div class="mb-4">
+              <label class="form-label" for="careLevelSelect">2. How much care are you willing to provide?</label>
+              <select class="form-select" id="careLevelSelect" name="careLevel" required>
+                <option value="" disabled selected>Select care level</option>
+                <option value="Low">Low maintenance</option>
+                <option value="Medium">Moderate care</option>
+                <option value="High">High maintenance</option>
+              </select>
+            </div>
+
+            <!-- Question 3: Pet-Friendliness -->
+            <div class="mb-4">
+              <label class="form-label" for="petsSelect">3. Do you have pets?</label>
+              <select class="form-select" id="petsSelect" name="pets" required>
+                <option value="" disabled selected>Select pet-friendliness</option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+              </select>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="d-grid">
+              <button type="submit" class="btn btn-outline-warning rounded-pill p-2">Find My Plant!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vibrant Plant Section  -->
+    <section class="vibrate_plant_section pt-5 pb-5">
+      <div class="container">
+        <div class="row gx-3 gy-3">
+          <div class="col-12">
+            <div class="heading">
+              <h2 class="fw-bold">Vibrant Plant</h2>
+              <img class="" src="assets/img/sub.webp" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/European Pan Palm.jpg" class="card-img-top" alt="European Pan Palm">
+              <div class="card-body">
+                <h5 class="card-title text-center">European Pan Palm</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Dumb Cane.jpg" class="card-img-top" alt="Dumb Cane">
+              <div class="card-body">
+                <h5 class="card-title text-center">Dumb Cane</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Compress Circular.jpg" class="card-img-top" alt="Compress Circular">
+              <div class="card-body">
+                <h5 class="card-title text-center">Compress Circular</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Chine Evergreen.jpg" class="card-img-top" alt="Chine Evergreen">
+              <div class="card-body">
+                <h5 class="card-title text-center">Chine Evergreen</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Arrowhead.jpg" class="card-img-top" alt="Arrowhead">
+              <div class="card-body">
+                <h5 class="card-title text-center">Arrowhead</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Audiopipe Series.jpg" class="card-img-top" alt="Audiopipe Series">
+              <div class="card-body">
+                <h5 class="card-title text-center">Audiopipe Series</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Houseplants Section  -->
+    <section class="Popular_Houseplants pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-1">
+            <div class="heading">
+              <h2 class="fw-bold">Popular Houseplants</h2>
+              <img class="" src="assets/img/sub.webp" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Areca palm.jpg" class="card-img-top" alt="Areca palm">
+              <div class="card-body">
+                <h5 class="card-title text-center">Areca palm</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Glass Cleaner.jpg" class="card-img-top" alt="Glass Cleaner">
+              <div class="card-body">
+                <h5 class="card-title text-center">Glass Cleaner</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Golden Pothos.jpg" class="card-img-top" alt="Golden Pothos">
+              <div class="card-body">
+                <h5 class="card-title text-center">Golden Pothos</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Curated Collections Section -->
+    <section class="Curated_Section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-1">
+            <div class="heading">
+              <h2 class="fw-bold">Curated Collections</h2>
+              <img class="" src="assets/img/sub.webp" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Succulent Collection.webp" class="card-img-top" alt="Succulent Collection">
+              <div class="card-body">
+                <h5 class="card-title text-center">Succulent Collection</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Air Purifying Plants.webp" class="card-img-top" alt="Air Purifying Plants">
+              <div class="card-body">
+                <h5 class="card-title text-center">Air Purifying Plants</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Tropical Paradise.webp" class="card-img-top" alt="Tropical Paradise">
+              <div class="card-body">
+                <h5 class="card-title text-center">Tropical Paradise</h5>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Plant Care Guides Section -->
+    <section class="Plant_Care_Section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-1">
+            <div class="heading">
+              <h2 class="fw-bold">Plant Care Guides</h2>
+              <img class="" src="assets/img/sub.webp" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Watering Tips Care.png" class="card-img-top" alt="Watering Tips">
+              <div class="card-body">
+                <h5 class="card-title text-center">Watering Tips</h5>
+                <p class="card-text">Learn about the best watering times for your plants.</p>
+                <div class="text-center">
+                  <a href="#" role="button" class="btn btn-outline-warning text-decoration-none">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Light Requirements Care.png" class="card-img-top" alt="Light Requirements">
+              <div class="card-body">
+                <h5 class="card-title text-center">Light Requirements</h5>
+                <p class="card-text">Learn about the light conditions for your plants.</p>
+                <a href="#" role="button" class="btn btn-outline-warning text-decoration-none">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card">
+              <img src="assets/img/Indoor Plant Care.jpg" class="card-img-top" alt="Indoor Plant Care">
+              <div class="card-body">
+                <h5 class="card-title text-center">Indoor Plant Care</h5>
+                <p class="card-text">Learn about the best indoor plant care practices.</p>
+                <a href="#" role="button" class="btn btn-outline-warning text-decoration-none">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Blooming Oasis Section -->
+    <section class="Blooming_Section pt-5 pb-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12">
+            <div class="blooming_text">
+              <h2 class="mb-4 bold">About Blooming Oasis</h2>
+              <p>Welcome to Blooming Oasis, your one-stop online store for vibrant plants and lush greenery! We
+                specialize in bringing life to your home and garden with a wide range of indoor and outdoor plants,
+                carefully selected for every space and season. Let us help you grow your perfect oasis!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="Footer_section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="logo">
+              <img src="assets/img/logo.png" alt="Blooming Oasis Logo">
+            </div>
+            <div class="f_text text-light my-3">
+              <p>We are passionate about helping you create the perfect green space in your home. Whether you're a
+                seasoned plant parent or a beginner, our carefully curated collections and expert care guides will
+                ensure your plants thrive.</p>
+            </div>
+            <div class="social_icon">
+              <a href="" target="_blank"><i class="bi bi-facebook text-light"></i></a>
+              <a href="" target="_blank"><i class="bi bi-instagram ms-3 text-light"></i></a>
+              <a href="" target="_blank"><i class="bi bi-twitter ms-3 text-light"></i></a>
+              <a href="" target="_blank"><i class="bi bi-linkedin ms-3 text-light"></i></a>
+              <a href="" target="_blank"><i class="bi bi-github ms-3 text-light"></i></a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="heading_text">
+              <h3 class="text-white">Our Sevices</h3>
+            </div>
+            <div class="footer_service">
+              <ul>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Garden Design</a></li>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Garden Maintenance</a></li>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Planting Services</a></li>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Irrigation Services</a></li>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Specialty Services</a></li>
+                <li class="text-white"><a href="" class="text-decoration-none text-white">Tree Care</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="heading_text">
+              <h3 class="text-white">Company</h3>
+            </div>
+            <div class="footer_service">
+              <ul>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Garden Design</a></li>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Garden Maintenance</a></li>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Planting Services</a></li>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Irrigation Services</a></li>
+                <li class="text-white"><a href="#" class="text-decoration-none text-white">Specialty Services</a></li>
+                <li class="text-white"><a href="" class="text-decoration-none text-white">Tree Care</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    <section class="soket text-center pt-3">
+      <div class="timeShow text-white">
+        <span id="showTime"></span>
+      </div>
+      <div class="right">
+        <p>Copyright ©
+          Teamo online. All rights reserved design by <strong>Tibro</strong></a>
+        </p>
+      </div>
+    </section>
+    <button id="backToTopBtn" class="btn btn-success rounded-circle">
+      <i class="bi bi-arrow-up"></i>
+    </button>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- custom js link here -->
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>

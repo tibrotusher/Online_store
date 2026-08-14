@@ -1,0 +1,155 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #87dc63;
+  transition: all 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* Heading Style  */
+.heading {
+  font-size: 2rem !important;
+  text-align: center;
+  margin-bottom: 0.2rem;
+  color: black;
+  letter-spacing: 0.3rem !important;
+  font-weight: 700;
+}
+
+.inner_banner {
+  background: #0a5b04 url(../img/innar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  padding: 2rem 0;
+}
+
+.header_section {
+  background: #5cb338;
+  padding: 0.5rem 0;
+}
+
+.header_section .active {
+  color: black;
+}
+.header_section .nav-item {
+  transition: 0.4s;
+}
+.header_section .nav-item:hover {
+  color: black;
+  border-bottom: 2px solid #ece852;
+}
+
+.banner_section {
+  background: rgba(0, 0, 0, 0.607) url(../img/hero-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  padding: 10rem 0;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  align-content: center;
+}
+
+.find_plant_section {
+  background: #80808014;
+}
+.find_plant_section .quiz-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Popular_Houseplants .card-body {
+  background: #ece7528a;
+}
+
+.Curated_Section .card-body {
+  background: #72b83014;
+}
+
+.Blooming_Section {
+  background: #e8e6dee9;
+}
+.Blooming_Section .blooming_text {
+  padding: 0 1.8rem;
+}
+
+.Footer_section {
+  background: #354e33 url(../img/footer.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-blend-mode: multiply;
+}
+.soket {
+  background: #0a5b04;
+  padding: 1rem 0rem;
+}
+.soket .right p {
+  margin: 0 !important;
+  color: #fff;
+}
+
+/* Products Page  */
+
+.parent_tips {
+  background-color: #f8f9fad7;
+}
+.parent_tips .main_container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Us Page  */
+
+.contact_us .contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact_us .contact-container .required {
+  font-size: 1rem !important;
+  color: #eb8281;
+  margin-right: 3px;
+}
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease-in-out;
+}
+#backToTopBtn:hover {
+  opacity: 0.8;
+}
